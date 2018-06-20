@@ -1,5 +1,5 @@
-# celery-consumer
-Celery Consumer, custom consumer, bootsteps, consumer step
+# Celery Message consumer
+Celery Message Consumer, custom consumer, bootsteps, consumer step
 
 Here is a code to subscribe/consume the messages that are produced from non celery producer.
 
