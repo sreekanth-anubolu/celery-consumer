@@ -1,7 +1,7 @@
 # Celery Message consumer
 Celery Message Consumer, custom consumer, bootsteps, consumer step
 
-Here is a code to subscribe/consume the messages that are produced from non celery producer.
+Here is a custom consumer code to subscribe/consume the messages that are produced from non celery producer.
 
 
 Ensure you have installed
