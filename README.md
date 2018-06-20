@@ -12,7 +12,7 @@ Ensure you have installed
 
 **Assumption**
 
-You already has a queue that has messages coming in and you only need consumer. Basically a non celery producer.
+You already has a queue that has messages coming in and you only need consumer.
 
 
 Steps to run:

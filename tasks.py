@@ -41,6 +41,9 @@ class AMQPConsumer(bootsteps.ConsumerStep):
         message.ack()
 
 
+app.steps['consumer'].add(AMQPConsumer)
+
+
 @app.task
 def test_queue_function(body):
     print("test function", body)
@@ -51,6 +54,3 @@ def test_queue_function(body):
 def another_queue_function(body):
     print("default function", body)
     print("22222222")
-
-
-app.steps['consumer'].add(AMQPConsumer)
